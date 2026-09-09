@@ -1,0 +1,1 @@
+SELECT * FROM users WHERE NOT email = 'Chems@chempe.co' OR age = 10 ORDER BY name LIMIT 2;
