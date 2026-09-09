@@ -1,0 +1,3 @@
+SELECT * FROM users WHERE age = 10
+
+SELECT  DISTINCT * FROM users WHERE age = 10
