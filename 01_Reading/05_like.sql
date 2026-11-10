@@ -1,5 +1,8 @@
-SELECT * FROM users WHERE email  LIKE '%chempe.co';
+-- Obtiene todos datos de la tabla "users" que contienen un email con el texto "gmail.com" en su parte final
+SELECT * FROM users WHERE email LIKE '%gmail.com';
 
-SELECT * FROM users WHERE email  LIKE '%@%';
+-- Obtiene todos datos de la tabla "users" que contienen un email con el texto "sara" en su parte inicial
+SELECT * FROM users WHERE email LIKE 'sara%';
 
-SELECT * FROM users WHERE email  LIKE 'elque%'
+-- Obtiene todos datos de la tabla "users" que contienen un email una arroba
+SELECT * FROM users WHERE email LIKE '%@%';
